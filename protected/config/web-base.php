@@ -5,6 +5,8 @@ return array(
 
 	'name' => 'Item Logger',
 
+    'defaultController' => 'search',
+
 	// components to preload
 	'preload' => array('log'),
 
@@ -16,9 +18,6 @@ return array(
 
 	// application components
 	'components' => array(
-		'errorHandler'=>array(
-			'errorAction'=>'site/error',
-		),
 		'db' => array(
 			'enableProfiling' => defined('YII_DEBUG') && YII_DEBUG,
 			'charset' => 'utf8',
