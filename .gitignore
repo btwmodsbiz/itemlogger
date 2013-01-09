@@ -1,1 +1,2 @@
 !/.gitignore
+/protected/config/web-local.php
