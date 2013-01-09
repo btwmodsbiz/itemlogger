@@ -42,8 +42,8 @@ class SearchController extends Controller {
 				);
 			}
 		}
-		
-		echo json_encode($ret);
+
+        $this->renderJSON($ret);
 	}
 	
 	private function getModel($name) {
